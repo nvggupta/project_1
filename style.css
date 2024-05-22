@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+#container
+{
+    height: 50%;
+    display: flex;
+    width: 50%;
+    background-color: #565656;
+}
+.main-btn{
+ display: flex;
+ gap: 20px;
+ cursor: pointer;
+}
